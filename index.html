@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PH SEBUCÁN COUNTRY | Decohogar Inmobiliaria</title>
+  <meta name="description" content="PH Sebucán Country - Triplex de 600m² de lujo con ascensor privado, terraza panorámica y seguridad de alto nivel. Exclusivo para diplomáticos y empresarios.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo" aria-label="Decohogar Inmobiliaria">
+        <!-- 🖼️ ESPACIO PARA LOGO SVG (Decohogar Inmobiliaria) -->
+        <svg class="logo__svg" viewBox="0 0 60 60" aria-hidden="true">
+          <rect x="2" y="2" width="56" height="56" rx="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <text x="30" y="38" text-anchor="middle" font-family="Cormorant Garamond, serif" font-weight="700" font-size="26" fill="currentColor">D</text>
+        </svg>
+        <div class="logo__text">
+          <span class="logo__name">Decohogar</span>
+          <span class="logo__sub">Inmobiliaria</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#propiedad">Propiedad</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#galeria">Galería</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto" class="nav__cta">Solicitar Visita</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <!-- 🖼️ FOTO PRINCIPAL DEL HERO (sugerida: Terraza panorámica o Sala principal) -->
+      <img src="terrazaprincipal.jpg" alt="Terraza panorámica PH Sebucán Country" loading="eager">
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="container hero__content">
+      <p class="hero__eyebrow">Exclusividad · Diplomacia · Confort</p>
+      <h1 class="hero__title">PH SEBUCÁN<br><span>COUNTRY</span></h1>
+      <p class="hero__subtitle">Triplex de 600 m² donde la diplomacia y el confort se encuentran</p>
+      <div class="hero__meta">
+        <span><svg class="icon"><use href="#icon-area"/></svg> 600 m²</span>
+        <span><svg class="icon"><use href="#icon-bed"/></svg> 3 Hab. + Estudio</span>
+        <span><svg class="icon"><use href="#icon-shield"/></svg> Seguridad Alto Nivel</span>
+      </div>
+      <div class="hero__actions">
+        <a href="#contacto" class="btn btn--gold">Solicitar Visita Privada</a>
+        <a href="#galeria" class="btn btn--ghost">Explorar Galería</a>
+      </div>
+    </div>
+
+    <a href="#propiedad" class="hero__scroll" aria-label="Bajar">
+      <svg class="icon"><use href="#icon-chevron"/></svg>
+    </a>
+  </section>
+
+  <!-- ============ PROPIEDAD / INTRO ============ -->
+  <section class="section section--dark" id="propiedad">
+    <div class="container property-intro">
+      <div class="property-intro__text">
+        <span class="section__eyebrow">La Propiedad</span>
+        <h2 class="section__title">Un espacio acogedor,<br><em>lujoso y seguro</em></h2>
+        <p class="lead">Un PH triplex de 600 m² diseñado para familias y empresas que exigen privacidad, distinción y la máxima seguridad. Ideal para el perfil jurídico, empresarial y diplomático.</p>
+
+        <div class="price-grid">
+          <div class="price-card">
+            <span class="price-card__label">Alquiler</span>
+            <span class="price-card__value">$4.700</span>
+            <span class="price-card__note">Mensual</span>
+          </div>
+          <div class="price-card price-card--featured">
+            <span class="price-card__label">Venta</span>
+            <span class="price-card__value">$800.000</span>
+            <span class="price-card__note">Negociable con previa oferta</span>
+          </div>
+        </div>
+
+        <p class="negotiation"><svg class="icon icon--gold"><use href="#icon-handshake"/></svg> Condiciones de negociación abiertas con oferta previa.</p>
+      </div>
+
+      <div class="property-intro__image">
+        <!-- 🖼️ FOTO: Sala principal (una de las 4 disponibles) -->
+        <img src="images/salaprincipal.jpg" alt="Sala principal del PH Sebucán Country" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CARACTERÍSTICAS ============ -->
+  <section class="section" id="caracteristicas">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__eyebrow">Lo que lo hace único</span>
+        <h2 class="section__title">Amenidades <em>excepcionales</em></h2>
+      </div>
+
+      <div class="features">
+        <article class="feature">
+          <div class="feature__icon"><svg class="icon"><use href="#icon-elevator"/></svg></div>
+          <h3>Ascensor privado</h3>
+          <p>Ascensor privado y de servicio para mayor comodidad y discreción.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon"><svg class="icon"><use href="#icon-terrace"/></svg></div>
+          <h3>Terraza panorámica</h3>
+          <p>Vista ciudad y montaña en un espacio único para recibir.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon"><svg class="icon"><use href="#icon-bed"/></svg></div>
+          <h3>3 Hab. + Estudio</h3>
+          <p>Cada habitación con baño y vestier, más estudio independiente.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon"><svg class="icon"><use href="#icon-pool"/></svg></div>
+          <h3>Piscina y parque</h3>
+          <p>Piscina privada, áreas verdes y pozo de agua propio.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon"><svg class="icon"><use href="#icon-parking"/></svg></div>
+          <h3>4 puestos de parking</h3>
+          <p>Estacionamiento amplio para propietarios y visitantes.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon"><svg class="icon"><use href="#icon-service"/></svg></div>
+          <h3>Área de servicio</h3>
+          <p>Área de servicio independiente totalmente equipada.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon"><svg class="icon"><use href="#icon-shield"/></svg></div>
+          <h3>Seguridad de alto nivel</h3>
+          <p>Vigilancia 24/7 y protocolos de seguridad premium.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon"><svg class="icon"><use href="#icon-briefcase"/></svg></div>
+          <h3>Perfil exclusivo</h3>
+          <p>Ideal para jurídicos, empresarios y diplomáticos con referencias.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALERÍA POR GRUPOS (CARRUSELES) ============ -->
+  <section class="section section--light" id="galeria">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__eyebrow">Galería</span>
+        <h2 class="section__title">Recorre cada <em>espacio</em></h2>
+        <p class="section__desc">Explora la propiedad organizada por ambientes. Desliza cada carrusel o abre las fotos en pantalla completa.</p>
+      </div>
+
+      <!-- Grupo 1: Sala -->
+      <div class="gallery-group" data-group="sala">
+        <div class="gallery-group__head">
+          <h3><svg class="icon icon--gold"><use href="#icon-sofa"/></svg> Sala</h3>
+          <span class="gallery-group__count">4 fotos</span>
+        </div>
+        <div class="carousel">
+          <button class="carousel__btn carousel__btn--prev" aria-label="Anterior"><svg class="icon"><use href="#icon-chevron-left"/></svg></button>
+          <div class="carousel__track">
+            <!-- 🖼️ 4 FOTOS DE LA SALA -->
+            <figure class="carousel__item" data-src="images/sala-1.jpg"><img src="images/salaprincipal.jpg" alt="Sala 1" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/sala-2.jpg"><img src="images/sala-2.jpg" alt="Sala 2" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/sala-3.jpg"><img src="images/sala-3.jpg" alt="Sala 3" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/sala-4.jpg"><img src="images/sala-4.jpg" alt="Sala 4" loading="lazy"></figure>
+          </div>
+          <button class="carousel__btn carousel__btn--next" aria-label="Siguiente"><svg class="icon"><use href="#icon-chevron-right"/></svg></button>
+        </div>
+      </div>
+
+      <!-- Grupo 2: Cocina -->
+      <div class="gallery-group" data-group="cocina">
+        <div class="gallery-group__head">
+          <h3><svg class="icon icon--gold"><use href="#icon-kitchen"/></svg> Cocina</h3>
+          <span class="gallery-group__count">3 fotos</span>
+        </div>
+        <div class="carousel">
+          <button class="carousel__btn carousel__btn--prev" aria-label="Anterior"><svg class="icon"><use href="#icon-chevron-left"/></svg></button>
+          <div class="carousel__track">
+            <!-- 🖼️ 3 FOTOS DE LA COCINA -->
+            <figure class="carousel__item" data-src="images/cocina-1.jpg"><img src="images/cocina-1.jpg" alt="Cocina 1" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/cocina-2.jpg"><img src="images/cocina-2.jpg" alt="Cocina 2" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/cocina-3.jpg"><img src="images/cocina-3.jpg" alt="Cocina 3" loading="lazy"></figure>
+          </div>
+          <button class="carousel__btn carousel__btn--next" aria-label="Siguiente"><svg class="icon"><use href="#icon-chevron-right"/></svg></button>
+        </div>
+      </div>
+
+      <!-- Grupo 3: Habitaciones -->
+      <div class="gallery-group" data-group="habitaciones">
+        <div class="gallery-group__head">
+          <h3><svg class="icon icon--gold"><use href="#icon-bed"/></svg> Habitaciones</h3>
+          <span class="gallery-group__count">2 fotos</span>
+        </div>
+        <div class="carousel">
+          <button class="carousel__btn carousel__btn--prev" aria-label="Anterior"><svg class="icon"><use href="#icon-chevron-left"/></svg></button>
+          <div class="carousel__track">
+            <!-- 🖼️ 2 FOTOS DE HABITACIONES -->
+            <figure class="carousel__item" data-src="images/habitacion-1.jpg"><img src="images/habitacion-1.jpg" alt="Habitación 1" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/habitacion-2.jpg"><img src="images/habitacion-2.jpg" alt="Habitación 2" loading="lazy"></figure>
+          </div>
+          <button class="carousel__btn carousel__btn--next" aria-label="Siguiente"><svg class="icon"><use href="#icon-chevron-right"/></svg></button>
+        </div>
+      </div>
+
+      <!-- Grupo 4: Baños -->
+      <div class="gallery-group" data-group="banos">
+        <div class="gallery-group__head">
+          <h3><svg class="icon icon--gold"><use href="#icon-bath"/></svg> Baños</h3>
+          <span class="gallery-group__count">5 fotos</span>
+        </div>
+        <div class="carousel">
+          <button class="carousel__btn carousel__btn--prev" aria-label="Anterior"><svg class="icon"><use href="#icon-chevron-left"/></svg></button>
+          <div class="carousel__track">
+            <!-- 🖼️ 5 FOTOS DE BAÑOS -->
+            <figure class="carousel__item" data-src="images/bano-1.jpg"><img src="images/bano-1.jpg" alt="Baño 1" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/bano-2.jpg"><img src="images/bano-2.jpg" alt="Baño 2" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/bano-3.jpg"><img src="images/bano-3.jpg" alt="Baño 3" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/bano-4.jpg"><img src="images/bano-4.jpg" alt="Baño 4" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/bano-5.jpg"><img src="images/bano-5.jpg" alt="Baño 5" loading="lazy"></figure>
+          </div>
+          <button class="carousel__btn carousel__btn--next" aria-label="Siguiente"><svg class="icon"><use href="#icon-chevron-right"/></svg></button>
+        </div>
+      </div>
+
+      <!-- Grupo 5: Escaleras -->
+      <div class="gallery-group" data-group="escaleras">
+        <div class="gallery-group__head">
+          <h3><svg class="icon icon--gold"><use href="#icon-stairs"/></svg> Escaleras</h3>
+          <span class="gallery-group__count">3 fotos</span>
+        </div>
+        <div class="carousel">
+          <button class="carousel__btn carousel__btn--prev" aria-label="Anterior"><svg class="icon"><use href="#icon-chevron-left"/></svg></button>
+          <div class="carousel__track">
+            <!-- 🖼️ 3 FOTOS DE ESCALERAS -->
+            <figure class="carousel__item" data-src="images/escalera-1.jpg"><img src="images/escalera-1.jpg" alt="Escalera 1" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/escalera-2.jpg"><img src="images/escalera-2.jpg" alt="Escalera 2" loading="lazy"></figure>
+            <figure class="carousel__item" data-src="images/escalera-3.jpg"><img src="images/escalera-3.jpg" alt="Escalera 3" loading="lazy"></figure>
+          </div>
+          <button class="carousel__btn carousel__btn--next" aria-label="Siguiente"><svg class="icon"><use href="#icon-chevron-right"/></svg></button>
+        </div>
+      </div>
+
+      <!-- Grupo 6: Closet -->
+      <div class="gallery-group" data-group="closet">
+        <div class="gallery-group__head">
+          <h3><svg class="icon icon--gold"><use href="#icon-closet"/></svg> Closet / Vestier</h3>
+          <span class="gallery-group__count">1 foto</span>
+        </div>
+        <div class="carousel carousel--single">
+          <div class="carousel__track">
+            <!-- 🖼️ 1 FOTO DE CLOSET -->
+            <figure class="carousel__item" data-src="images/closet-1.jpg"><img src="images/closet-1.jpg" alt="Closet" loading="lazy"></figure>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grupo 7: Piscina -->
+      <div class="gallery-group" data-group="piscina">
+        <div class="gallery-group__head">
+          <h3><svg class="icon icon--gold"><use href="#icon-pool"/></svg> Piscina</h3>
+          <span class="gallery-group__count">1 foto</span>
+        </div>
+        <div class="carousel carousel--single">
+          <div class="carousel__track">
+            <!-- 🖼️ 1 FOTO DE PISCINA (vista desde arriba) -->
+            <figure class="carousel__item" data-src="images/piscina-1.jpg"><img src="images/piscina-1.jpg" alt="Piscina vista superior" loading="lazy"></figure>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grupo 8: Terraza -->
+      <div class="gallery-group" data-group="terraza">
+        <div class="gallery-group__head">
+          <h3><svg class="icon icon--gold"><use href="#icon-terrace"/></svg> Terraza</h3>
+          <span class="gallery-group__count">1 foto</span>
+        </div>
+        <div class="carousel carousel--single">
+          <div class="carousel__track">
+            <!-- 🖼️ 1 FOTO DE TERRAZA -->
+            <figure class="carousel__item" data-src="images/terrazaprincipal.jpg"><img src="images/terrazaprincipal.jpg" alt="Terraza panorámica" loading="lazy"></figure>
+          </div>
+        </div>
+      </div>
+
+      <p class="gallery__note">📸 Total: <strong>20 fotografías</strong> organizadas por ambiente. Haz clic en cualquier imagen para verla en grande.</p>
+    </div>
+  </section>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imágenes">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Cerrar">✕</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Anterior"><svg class="icon"><use href="#icon-chevron-left"/></svg></button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="Foto ampliada">
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Siguiente"><svg class="icon"><use href="#icon-chevron-right"/></svg></button>
+    <span class="lightbox__counter" id="lightboxCounter"></span>
+  </div>
+
+  <!-- ============ UBICACIÓN ============ -->
+  <section class="section section--dark" id="ubicacion">
+    <div class="container location">
+      <div class="location__info">
+        <span class="section__eyebrow">Ubicación</span>
+        <h2 class="section__title">Sebucán <em>Country</em></h2>
+        <p>Zona residencial exclusiva con acceso privilegiado a colegios, embajadas, centros empresariales y las principales vías de la ciudad.</p>
+        <ul class="location__list">
+          <li><svg class="icon icon--gold"><use href="#icon-shield"/></svg> Zona de seguridad de alto nivel</li>
+          <li><svg class="icon icon--gold"><use href="#icon-briefcase"/></svg> Entorno empresarial y diplomático</li>
+          <li><svg class="icon icon--gold"><use href="#icon-area"/></svg> Acceso a parques y áreas verdes</li>
+        </ul>
+        <a href="#contacto" class="btn btn--gold">Agendar Visita</a>
+      </div>
+      <div class="location__map">
+        <!-- 🗺️ ESPACIO PARA MAPA (iframe Google Maps o imagen) -->
+        <div class="map-placeholder">
+          <svg class="icon"><use href="#icon-pin"/></svg>
+          <span>Mapa de ubicación</span>
+          <small>Reemplazar con iframe de Google Maps</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FORMULARIO / CTA ============ -->
+  <section class="section cta" id="contacto">
+    <div class="cta__bg">
+      <!-- 🖼️ FOTO DE FONDO PARA CTA (sugerida: Terraza o Sala) -->
+      <img src="images/rerrazaprincipal.jpg" alt="" aria-hidden="true" loading="lazy">
+      <div class="cta__overlay"></div>
+    </div>
+    <div class="container cta__inner">
+      <div class="cta__text">
+        <span class="section__eyebrow">Visita Privada</span>
+        <h2 class="section__title">Solicita tu<br><em>visita exclusiva</em></h2>
+        <p>La visita está sujeta a aprobación de perfil. Un asesor de Decohogar Inmobiliaria te contactará para coordinar los detalles.</p>
+        <ul class="cta__perks">
+          <li><svg class="icon icon--gold"><use href="#icon-check"/></svg> Atención personalizada</li>
+          <li><svg class="icon icon--gold"><use href="#icon-check"/></svg> Confidencialidad garantizada</li>
+          <li><svg class="icon icon--gold"><use href="#icon-check"/></svg> Respuesta en menos de 24h</li>
+        </ul>
+      </div>
+
+      <form class="form" id="visitForm" novalidate>
+        <div class="form__group">
+          <label for="nombre">Nombre y apellido *</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+          <span class="form__error" data-error="nombre"></span>
+        </div>
+        <div class="form__group">
+          <label for="telefono">Número de teléfono *</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="Ej. +58 412 1234567" required>
+          <span class="form__error" data-error="telefono"></span>
+        </div>
+        <div class="form__group">
+          <label for="correo">Correo electrónico *</label>
+          <input type="email" id="correo" name="correo" placeholder="Ej. juan@empresa.com" required>
+          <span class="form__error" data-error="correo"></span>
+        </div>
+
+        <button type="submit" class="btn btn--gold btn--full">
+          <svg class="icon"><use href="#icon-whatsapp"/></svg>
+          Solicitar Visita por WhatsApp
+        </button>
+        <p class="form__legal">Al enviar, aceptas ser contactado por Decohogar Inmobiliaria. Tus datos se envían directamente por WhatsApp.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <!-- 🖼️ LOGO SVG REPETIDO (opcional) -->
+        <svg class="logo__svg" viewBox="0 0 60 60" aria-hidden="true">
+          <rect x="2" y="2" width="56" height="56" rx="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <text x="30" y="38" text-anchor="middle" font-family="Cormorant Garamond, serif" font-weight="700" font-size="26" fill="currentColor">D</text>
+        </svg>
+        <div>
+          <strong>Decohogar Inmobiliaria</strong>
+          <p>Propiedades de lujo y exclusividad.</p>
+        </div>
+      </div>
+      <div class="footer__contact">
+        <a href="https://wa.me/584129602145" target="_blank" rel="noopener">
+          <svg class="icon"><use href="#icon-whatsapp"/></svg> +58 412-960-2145
+        </a>
+        <p>PH Sebucán Country · Triplex 600 m²</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="year"></span> Decohogar Inmobiliaria. Todos los derechos reservados.</p>
+      <p>RIF J-50368123-3</p>
+      <p>Desarrollado por <a href="https://adnebula.github.io" target="_blank" rel="noopener">
+          Nebula ADS Pages
+        </a></p>
+    </div>
+  </footer>
+
+  <!-- ============ BOTÓN WHATSAPP FLOTANTE ============ -->
+  <a href="https://wa.me/584129602145?text=Hola%2C%20estoy%20interesado%20en%20el%20PH%20SEBUC%C3%81N%20COUNTRY" 
+     class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg class="icon"><use href="#icon-whatsapp"/></svg>
+  </a>
+
+  <!-- ============ SPRITE DE ICONOS SVG ============ -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M12 3 4 6v6c0 5 3.5 8.5 8 9 4.5-.5 8-4 8-9V6l-8-3z"/><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="icon-bed" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M3 18v-5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5M3 18h18M3 18v2M21 18v2M6 11V8a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v3"/></symbol>
+    <symbol id="icon-area" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M4 4h16v16H4zM4 9h5V4M15 20v-5h5"/></symbol>
+    <symbol id="icon-elevator" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M9 8l1.5-1.5L12 8M15 16l-1.5 1.5L12 16"/></symbol>
+    <symbol id="icon-terrace" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></symbol>
+    <symbol id="icon-pool" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M3 18c2 0 2-1.5 4-1.5S9 18 11 18s2-1.5 4-1.5S17 18 19 18s2-1.5 2-1.5M3 14c2 0 2-1.5 4-1.5S9 14 11 14s2-1.5 4-1.5S17 14 19 14s2-1.5 2-1.5M8 10V5a2 2 0 0 1 4 0v5M14 10V7a1.5 1.5 0 0 1 3 0v3"/></symbol>
+    <symbol id="icon-parking" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M10 16V8h3a2.5 2.5 0 0 1 0 5h-3"/></symbol>
+    <symbol id="icon-service" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M4 19h16M6 19v-6a6 6 0 0 1 12 0v6M9 9V6a3 3 0 0 1 6 0v3"/></symbol>
+    <symbol id="icon-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></symbol>
+    <symbol id="icon-handshake" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="m11 17 2 2a1 1 0 0 0 1.4 0l4.6-4.6a1 1 0 0 0 0-1.4L15 8h-4l-4 4 4 5zM3 12l4-4M21 12l-4-4"/></symbol>
+    <symbol id="icon-sofa" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M4 12V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4M2 12a2 2 0 0 1 2 2v3h16v-3a2 2 0 0 1 4 0M4 14h16"/></symbol>
+    <symbol id="icon-kitchen" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M5 3v18M5 8h5V3M15 3v6a3 3 0 0 0 3 3V3M18 12v9"/></symbol>
+    <symbol id="icon-bath" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4v-3zM6 12V6a2 2 0 0 1 4 0M7 19v2M17 19v2"/></symbol>
+    <symbol id="icon-stairs" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M4 20h4v-4h4v-4h4V8h4V4"/></symbol>
+    <symbol id="icon-closet" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M9 10h.01M15 10h.01"/></symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M12 21s7-6 7-11a7 7 0 1 0-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M17.5 14.4c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.2-.7-1.7-.9-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1 2.9 1.2 3.1c.2.2 2 3.1 4.9 4.4.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.3A10 10 0 1 0 12 2z"/></symbol>
+  </svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
