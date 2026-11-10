@@ -676,9 +676,17 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   border-radius: 4px;
   padding: 2.5rem;
   backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden; /* evita que hijos anchos desborden */
 }
 
-.form__group { margin-bottom: 1.25rem; position: relative; }
+.form__group { 
+  margin-bottom: 1.25rem; 
+  position: relative;
+  width: 100%;
+}
 
 .form__group label {
   display: block;
@@ -692,14 +700,18 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 .form__group input {
   width: 100%;
+  max-width: 100%;
+  box-sizing: border-box; /* clave para que el padding no sume ancho */
   padding: .95rem 1rem;
   background: rgba(255,255,255,.06);
   border: 1px solid rgba(255,255,255,.15);
   border-radius: 2px;
   color: #fff;
   font-family: var(--font-sans);
-  font-size: .95rem;
+  font-size: 1rem; /* 16px evita zoom automático en iOS */
   transition: var(--transition);
+  -webkit-appearance: none; /* limpia estilos nativos en iOS */
+  appearance: none;
 }
 .form__group input::placeholder { color: rgba(255,255,255,.35); }
 .form__group input:focus {
@@ -724,6 +736,17 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   margin-top: 1rem;
   text-align: center;
   line-height: 1.5;
+}
+
+/* Botón del formulario: que nunca desborde */
+.form .btn--full {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: normal; /* permite 2 líneas en pantallas muy estrechas */
+  text-align: center;
+  line-height: 1.25;
+  padding: 1rem 1.25rem;
 }
 
 /* ============================================
@@ -855,7 +878,33 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
   .price-grid { grid-template-columns: 1fr; }
 
-  .form { padding: 1.75rem 1.25rem; }
+    .cta__inner {
+    gap: 2rem;
+    padding-inline: 0; /* evita doble margen */
+  }
+
+  .form {
+    padding: 1.5rem 1rem;
+    width: 100%;
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .form .btn--full {
+    padding: 1rem 0.75rem;
+    font-size: .82rem;
+    letter-spacing: .04em;
+  }
+}
+
+/* Extra: pantallas muy estrechas (≤380px) */
+@media (max-width: 380px) {
+  .form { padding: 1.25rem .85rem; }
+  .form .btn--full {
+    font-size: .78rem;
+    padding: .95rem .65rem;
+  }
+}
 
   .footer__inner { flex-direction: column; text-align: center; }
   .footer__brand { flex-direction: column; text-align: center; }
